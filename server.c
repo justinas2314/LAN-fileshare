@@ -102,7 +102,6 @@ int main(int argc, char *argv[]) {
     }
     int socket_description, client_socket, client_address_length;
     struct sockaddr_in server_address, client_address;
-    // dont't know what the last param does lol
     socket_description = socket(AF_INET, SOCK_STREAM, 0);
     if (socket_description == -1) {
         return -1;
