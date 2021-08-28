@@ -7,7 +7,7 @@ Compile and run `server.c` with the following arguments
 * port - the port you want to use for this file transfer (the client will have to match this)
 * directory - the directory where everything will be downloaded
 ### client.c
-* ip - the local ip address of the machine running `server.c` (use `ip a` to find this on linux)
+* ip - the local ip address of the machine running `server.c` (use `ip a` to find this on linux or `ipconfig` on windows)
 * port - the port the server chose to host on
 * directory1, directory2, ... - the directories to upload. NOTE: a folder will not be created for each directory and everything will be placed in the server's root directory.
 ### Important
