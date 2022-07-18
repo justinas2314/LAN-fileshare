@@ -97,7 +97,7 @@ int main(int argc, char *argv[]) {
     const int port = atoi(argv[1]);
     const char *directory = argv[2];
     if (argc < 3) {
-        printf("not enough arguments\n");
+        printf("required arguments: port directory\n");
         return -1;
     }
     int socket_description, client_socket, client_address_length;
