@@ -73,7 +73,7 @@ void buffered_reader(FILE *file, int socket, void *buffer, int message_length) {
 
 int main(int argc, char *argv[]) {
     if (argc < 4) {
-        printf("not enough arguments\n");
+        printf("required arguments: ip port directories\n");
         return -1;
     }
     const char *ip = argv[1];
